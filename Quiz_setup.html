@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Setup</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Section 1: Player Name Input -->
+        <section id="player-section">
+            <h2>What is your name?</h2>
+            <input type="text" id="playerName" placeholder="Enter your name" required>
+            <button id="nextBtn1">Next</button>
+        </section>
+
+        <!-- Section 2: Category Selection -->
+        <section id="category-section" style="display: none;">
+            <h2>Select Quiz Category</h2>
+            <button class="category-btn" data-category="geography">Geography</button>
+            <button class="category-btn" data-category="bible">Bible</button>
+            <button class="category-btn" data-category="science">General Science</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+        </section>
+    </div>
+
+    <script src="/Quiz.js"></script>
+</body>
+</html>

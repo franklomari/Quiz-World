@@ -1,0 +1,239 @@
+{
+    "geography": [
+        {
+            "question": "What is the capital of France?",
+            "options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+            "answer": 2
+        },
+        {
+            "question": "Which is the largest continent?",
+            "options": ["Asia", "Africa", "Europe", "Australia"],
+            "answer": 0
+        },
+            
+       {
+            "question": "What is the capital of Australia?",
+            "options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+                    "answer": 1
+                },
+                {
+                    "question": "Which is the largest country in the world by area?",
+                    "options": ["USA", "Canada", "China", "Russia"],
+                    "answer": 3
+                },
+                {
+                    "question": "What is the longest river in South America?",
+                    "options": ["Amazon", "Paraná", "Orinoco", "Rio Negro"],
+                    "answer": 0
+                },
+                {
+                    "question": "Which country has the highest population in the world?",
+                    "options": ["India", "USA", "China", "Indonesia"],
+                    "answer": 2
+                },
+                {
+                    "question": "Which mountain is the highest in the world?",
+                    "options": ["K2", "Mount Kilimanjaro", "Mount Everest", "Denali"],
+                    "answer": 2
+                },
+                {
+                    "question": "Which continent is the Sahara Desert located in?",
+                    "options": ["Asia", "Africa", "North America", "Australia"],
+                    "answer": 1
+                },
+                {
+                    "question": "Which ocean is located to the east of Africa?",
+                    "options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Southern Ocean"],
+                    "answer": 1
+                },
+                {
+                    "question": "What is the capital city of Egypt?",
+                    "options": ["Cairo", "Lagos", "Khartoum", "Tripoli"],
+                    "answer": 0
+                },
+                {
+                    "question": "What is the smallest continent by land area?",
+                    "options": ["Europe", "Australia", "South America", "Antarctica"],
+                    "answer": 1
+                },
+                {
+                    "question": "Which country is known as the land of ice and fire?",
+                    "options": ["Iceland", "Greenland", "Norway", "Finland"],
+                    "answer": 0
+                }
+            
+        
+    
+
+
+        
+    ],
+    "bible": [
+        {
+            "question": "Who built the ark?",
+            "options": ["Moses", "Noah", "David", "Solomon"],
+            "answer": 1
+        },
+        {
+            "question": "What is the first book of the Bible?",
+            "options": ["Genesis", "Exodus", "Leviticus", "Numbers"],
+            "answer": 0
+        },
+        
+               {
+                    "question": "Who led the Israelites out of Egypt?",
+                    "options": ["Moses", "Abraham", "Joseph", "David"],
+                    "answer": 0
+                },
+                {
+                    "question": "Which city’s walls fell after the Israelites marched around them?",
+                    "options": ["Jericho", "Bethlehem", "Jerusalem", "Nazareth"],
+                    "answer": 0
+                },
+                {
+                    "question": "Who was swallowed by a great fish?",
+                    "options": ["Jonah", "Elijah", "Peter", "Noah"],
+                    "answer": 0
+                },
+                {
+                    "question": "How many days did God take to create the world?",
+                    "options": ["5", "6", "7", "8"],
+                    "answer": 1
+                },
+                {
+                    "question": "What was the first miracle of Jesus recorded in the Bible?",
+                    "options": ["Raising Lazarus", "Healing the blind", "Turning water into wine", "Walking on water"],
+                    "answer": 2
+                },
+                {
+                    "question": "Who was thrown into the lion’s den?",
+                    "options": ["Daniel", "Joseph", "David", "Moses"],
+                    "answer": 0
+                },
+                {
+                    "question": "How many disciples did Jesus choose?",
+                    "options": ["10", "11", "12", "13"],
+                    "answer": 2
+                },
+                {
+                    "question": "Who betrayed Jesus to the Romans?",
+                    "options": ["Peter", "Judas", "John", "Thomas"],
+                    "answer": 1
+                }
+            ],
+
+    
+    "science": [
+        {
+            "question": "What planet is known as the Red Planet?",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "answer": 1
+        },
+        {
+            "question": "What is the boiling point of water?",
+            "options": ["50°C", "100°C", "150°C", "200°C"],
+            "answer": 1
+        },
+
+                {
+                    "question": "What is the chemical symbol for water?",
+                    "options": ["H2O", "O2", "CO2", "NaCl"],
+                    "answer": 0
+                },
+                {
+                    "question": "What planet is known as the Red Planet?",
+                    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+                    "answer": 1
+                },
+                {
+                    "question": "How many bones are there in the adult human body?",
+                    "options": ["206", "205", "210", "201"],
+                    "answer": 0
+                },
+                {
+                    "question": "What gas do plants absorb from the atmosphere?",
+                    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+                    "answer": 2
+                },
+                {
+                    "question": "What is the hardest natural substance on Earth?",
+                    "options": ["Gold", "Iron", "Diamond", "Silver"],
+                    "answer": 2
+                },
+                {
+                    "question": "What is the boiling point of water?",
+                    "options": ["50°C", "100°C", "150°C", "200°C"],
+                    "answer": 1
+                },
+                {
+                    "question": "Which organ in the human body is primarily responsible for filtering blood?",
+                    "options": ["Heart", "Lungs", "Kidneys", "Liver"],
+                    "answer": 2
+                },
+                {
+                    "question": "What force keeps objects on the ground?",
+                    "options": ["Magnetism", "Friction", "Gravity", "Momentum"],
+                    "answer": 2
+                }
+            ],
+        
+        
+    "sports": [
+        {
+            "question": "How many players are there in a soccer team?",
+            "options": ["9", "10", "11", "12"],
+            "answer": 2
+        },
+        {
+            "question": "Which country won the FIFA World Cup in 2018?",
+            "options": ["Brazil", "France", "Germany", "Argentina"],
+            "answer": 1
+        },
+        
+                {
+                    "question": "How many players are on a soccer team on the field during a match?",
+                    "options": ["9", "10", "11", "12"],
+                    "answer": 2
+                },
+                {
+                    "question": "Which country has won the most FIFA World Cup titles?",
+                    "options": ["Germany", "Argentina", "Italy", "Brazil"],
+                    "answer": 3
+                },
+                {
+                    "question": "In which sport would you perform a slam dunk?",
+                    "options": ["Tennis", "Basketball", "Volleyball", "Rugby"],
+                    "answer": 1
+                },
+                {
+                    "question": "Which tennis tournament is played on grass courts?",
+                    "options": ["French Open", "US Open", "Wimbledon", "Australian Open"],
+                    "answer": 2
+                },
+                {
+                    "question": "Who holds the record for the most Olympic gold medals?",
+                    "options": ["Usain Bolt", "Michael Phelps", "Simone Biles", "Carl Lewis"],
+                    "answer": 1
+                },
+                {
+                    "question": "What sport is known as the 'king of sports'?",
+                    "options": ["Cricket", "Basketball", "Football (Soccer)", "Tennis"],
+                    "answer": 2
+                },
+                {
+                    "question": "Which country hosted the 2016 Summer Olympics?",
+                    "options": ["Brazil", "China", "Greece", "UK"],
+                    "answer": 0
+                },
+                {
+                    "question": "Which athlete is known as 'The Greatest' and is a world-famous boxer?",
+                    "options": ["Muhammad Ali", "Mike Tyson", "Floyd Mayweather", "Manny Pacquiao"],
+                    "answer": 0
+                }
+            ]
+            }
+            
+        
+           
+    
+
