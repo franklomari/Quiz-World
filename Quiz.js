@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const playerSection = document.getElementById("player-section");
   const categorySection = document.getElementById("category-section");
   const nextBtn1 = document.getElementById("nextBtn1");
+  const input = document.getElementById("playerName");
   const categoryButtons = document.querySelectorAll(".category-btn");
   let playerName = "";
 
   // Handle Player Name Input
   nextBtn1.addEventListener("click", () => {
-    const input = document.getElementById("playerName");
     if (input.value.trim() !== "") {
       playerName = input.value.trim();
       playerSection.style.display = "none";
@@ -17,6 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
       input.classList.add("error");
       input.placeholder = "Please enter your name";
     }
+  });
+
+  input.addEventListener("input", () => {
+    input.classList.remove("error");
   });
 
   // Handle Category Selection
@@ -84,6 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <button id="endBtn">Finished</button>
         </div>
         `;
+
         let endBtn = document.getElementById("endBtn");
         endBtn.addEventListener("click", function () {
           window.location.href = "Quiz_setup.html";
