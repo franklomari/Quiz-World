@@ -4,11 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.onload = function () {
     let loader = document.querySelector(".loader");
+    let loaderContainer = document.querySelector(".loader-container");
     welcomeSection.style.display = "none";
     loader.classList.add("loader");
 
     setTimeout(function () {
       loader.style.display = "none";
+      loaderContainer.style.display = "none";
       welcomeSection.style.display = "block";
     }, 3000);
   };

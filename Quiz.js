@@ -81,13 +81,29 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         });
       } else {
-        quizContainer.innerHTML = `
-        <div class="score-container">
-        <h2>Done!</h2>
-        <h2>${playerName}, your score is ${score}/${totalQuestions}</h2>
-                <button id="endBtn">Finished</button>
-        </div>
+        if (score >= 7) {
+          quizContainer.innerHTML = `
+                    <h2>Well Done ${playerName}!</h2>
+                    <p>You have successfully completed the quiz.</p>
+                    <p>Your score is ${score} out of ${totalQuestions}</p>
+                    <button id="endBtn" class="btn">End Quiz</button>
+                `;
+        } else if (score >= 4) {
+          quizContainer.innerHTML = `
+                    <h2>Good Job ${playerName}!</h2>
+                    <p>You have successfully completed the quiz.</p>
+                    <p>Your score is ${score} out of ${totalQuestions}</p>
+                    <button id="endBtn" class="btn">End Quiz</button>
+                `;
+        } else {
+          quizContainer.innerHTML = `
+                    <h2>Try Again ${playerName}!</h2>
+                    <p>You have successfully completed the quiz.</p>
+                    <p>Your score is ${score} out of ${totalQuestions}</p>
+                    <button id="endBtn" class="btn">End Quiz</button>
+        
         `;
+        }
 
         let endBtn = document.getElementById("endBtn");
         endBtn.addEventListener("click", function () {
