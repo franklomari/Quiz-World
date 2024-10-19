@@ -3,6 +3,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #d2e0fb;
+  background-image: url(Images/Lovepik.png);
+  background-size: cover;
   margin: 0;
   padding: 0;
   display: flex;
